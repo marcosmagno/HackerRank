@@ -26,17 +26,16 @@ Sample Output
 
 
 def arrays(arr):
-
-	result = numpy.array(arr)
-	print(result.astype(float)[::-1])
-	#print(result[::-1])
+    # Turn the numbers into array
+    result = numpy.array(arr)
+    print(result.astype(float)[::-1])
 
 
 def main():
-	arr = input().strip().split(' ')
-	arrays(arr)
-
+	# Get value and split ' '
+    arr = input().strip().split(' ')
+    arrays(arr)
 
 
 if __name__ == '__main__':
-	main()
+    main()

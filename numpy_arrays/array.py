@@ -26,13 +26,13 @@ Sample Output
 
 
 def arrays(arr):
-    # Turn the numbers into array
+    	# Turn the numbers into array
     result = numpy.array(arr)
     print(result.astype(float)[::-1])
 
 
 def main():
-	# Get value and split ' '
+        # Get value and split ' '
     arr = input().strip().split(' ')
     arrays(arr)
 
